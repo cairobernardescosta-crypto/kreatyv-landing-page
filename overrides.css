@@ -1,0 +1,11 @@
+.reveal { opacity: 1; transform: none; }
+html, body { overflow-x: hidden; }
+.hero-copy, .section > * { min-width: 0; }
+.lead, .availability { overflow-wrap: anywhere; }
+
+@media (max-width: 620px) {
+  .hero { padding-top: 42px; }
+  .hero-art { min-height: 360px; }
+  .site-header { position: relative; }
+  .menu-toggle { position: absolute; right: 0; top: 13px; }
+}
