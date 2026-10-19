@@ -1,7 +1,45 @@
+:root {
+  --bg: #030507;
+  --panel: #080b11;
+  --line: #202838;
+  --text: #f5f8ff;
+  --muted: #8c96a8;
+  --accent: #9ecbff;
+  --blue: #9ecbff;
+}
+
 .reveal { opacity: 1; transform: none; }
 html, body { overflow-x: hidden; }
 .hero-copy, .section > * { min-width: 0; }
 .lead, .availability { overflow-wrap: anywhere; }
+
+body {
+  background-image:
+    linear-gradient(rgba(158, 203, 255, .018) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(158, 203, 255, .018) 1px, transparent 1px);
+  background-size: 52px 52px;
+}
+
+.hero { min-height: 650px; }
+.hero h1 { opacity: .13; }
+.hero-art { min-height: 590px; }
+.orbit {
+  border-color: rgba(158, 203, 255, .2);
+  box-shadow: 0 0 64px rgba(99, 159, 230, .08);
+}
+.mascot { filter: drop-shadow(0 0 28px rgba(99, 159, 230, .2)); }
+.button.primary { color: #05070b; }
+.feature-grid article:hover { background: #0b1018; }
+.req-grid .accent { border-color: #354862; }
+.brand-sample strong,
+.status-card strong,
+.terminal-card b,
+.terminal-card span { color: var(--accent); }
+.section { padding-top: 88px; padding-bottom: 88px; }
+.feature-grid article { min-height: 190px; background: rgba(6, 9, 14, .7); }
+.screen { border-color: #293345; }
+.screen:hover { box-shadow: 0 12px 42px rgba(20, 42, 72, .22); }
+.status-card { background: rgba(3, 5, 7, .92); }
 
 @media (max-width: 620px) {
   .hero { padding-top: 42px; }
