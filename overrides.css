@@ -13,6 +13,13 @@ html, body { overflow-x: hidden; }
 .hero-copy, .section > * { min-width: 0; }
 .lead, .availability { overflow-wrap: anywhere; }
 
+.hero h2,
+.section h2,
+.feature-grid h3 {
+  font-family: inherit;
+  font-weight: 800;
+}
+
 body {
   background-image:
     linear-gradient(rgba(158, 203, 255, .018) 1px, transparent 1px),
